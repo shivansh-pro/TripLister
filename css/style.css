@@ -1,0 +1,307 @@
+html, body{
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	}
+
+	p { margin: 0px; }
+
+	#triplister_logo {
+		position: absolute;
+		display: block;
+		top: 15%;
+		left: 50%;
+		margin-left: -319px;
+	}
+
+	#triplister_logo2 {
+		position: relative;
+		display: block;
+		margin: 3px 0px 2px 0px;
+	}
+
+	#efti_logo {
+		position: absolute;
+		display: block;
+                top: 15%;
+		left: 50%;
+		margin-left: -275px;
+	}
+
+	#center_it {
+		text-align: center;
+	}
+
+	#map-canvas {
+		height: 100%;
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	#container {
+	   min-height:100%;
+	   width: 100%;
+	   position:relative;
+	}
+
+	#header {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		height: 7%;
+		width: 100%;
+		background: url("img/header.png") no-repeat center center;
+		background-size: cover;
+		display: block;
+	}
+
+	#footer {
+		position:absolute;
+		bottom:3px;
+		width:100%;
+		height:7%;
+		background:transparent;
+		display: block; 	
+
+	}
+
+	h2 {
+		width: 100%; 
+		text-align: center; 
+		border-bottom: 5px solid #FF770A; 
+		line-height: 0.1em;
+		margin: 10px 0 20px; 
+	}
+
+	#footer_logo {
+		text-align:center;
+		position:absolute;
+		top:-10px;
+	}
+
+	#footer_logo2 {
+		position: absolute;
+		top:15px;
+		right: 2px;
+	}
+
+	#main_content {
+		position: absolute;
+		top: 40%;
+		margin-left: 25%;
+		height: 50%;
+		width: 50%;
+		font-size: 150%;
+		display: block;
+	}
+
+	#main {
+		position: absolute;
+		top: 7%;
+		height: 86%;
+		width: 100%;
+		display: block;
+	}
+
+	#destination{
+		font-weight: bold;
+	}
+
+	.styled-button-1 {
+        -webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+        -moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+        box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+        color:#FFF;
+        background-color:#FF770A;
+        border-radius:5px;
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;
+        border:none;
+        font-family:'Helvetica Neue',Arial,sans-serif;
+        font-size:16px;
+        font-weight:700;
+        height:32px;
+        padding:4px 16px;
+        text-shadow:#FE6 0 1px 0;
+        cursor: pointer;
+    } 
+
+    .styled-button-1:active {
+	    vertical-align: top;
+	    padding: 8px 13px 6px;
+	}
+
+	.controls {
+	  margin-top: 10px;
+	  border: 1px solid transparent;
+	  border-radius: 2px 0 0 2px;
+	  box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+	  height: 32px;
+	  outline: none;
+	  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+	}
+
+	#type-selector {
+	  color: #fff;
+	  background-color: #4d90fe;
+	  padding: 5px 11px 0px 11px;
+	}
+
+	#type-selector label {
+	  font-family: Roboto;
+	  font-size: 13px;
+	  font-weight: 300;
+	}
+    
+    #pac-input {
+    	text-align: center;
+		background-color: #fff;
+		font-family: Roboto;
+		font-size: 15px;
+		font-weight: 300;
+		margin-left: 25%;
+		padding: 0 11px 0 13px;
+		text-overflow: ellipsis;
+		width: 50%;
+	}
+
+	#pac-input:focus {
+		border-color: #4d90fe;
+	}
+
+	.pac-container {
+		font-family: Roboto;
+	}
+
+	#pac-input1 {
+		background-color: #fff;
+		font-family: Roboto;
+		font-size: 15px;
+		font-weight: 300;
+		margin-left: 12px;
+		padding: 0 11px 0 13px;
+		text-overflow: ellipsis;
+		width: 80%;
+	}
+
+	#pac-input1:focus {
+		border-color: #4d90fe;
+	}
+
+	#left_map{
+		width: 50%;
+		float: left;
+		height: 100%;
+		clear:both;
+	}
+
+	#right_places {
+		float : right;
+		width : 50%;
+		height : 100%;
+		overflow: auto;
+	}
+
+	#top {
+		height : 45%;
+		padding: 7px 5px 1px 5px;
+	}
+
+	#bottom {
+		height : 55%;
+		padding: 7px 5px 1px 5px;
+	}
+
+    #listing {
+		margin-left: 1%;
+		top: 1%;
+		width: 98%;
+		height: 45%;
+		display: block;
+		overflow-y: scroll;
+    }
+
+    #listing_selected {
+		margin-left: 1%;
+		top: 1%;
+		width: 98%;
+		height: 45%;
+		display: block;
+		overflow-y: scroll;
+		border-radius: 2px;
+		border: 2px solid #FF770A;
+    }
+
+    .iw_table_row {
+    height: 18px;
+    }
+    .iw_attribute_name {
+      font-weight: bold;
+      text-align: right;
+    }
+    .iw_table_icon {
+      text-align: right;
+    }
+
+#sp{display:block; float: right; width: 25%;}
+li{
+	height : 35px;
+}
+
+#qbody {
+	position: absolute;
+	top: 7%;
+	height: 86%;
+	width: 100%;
+	display: block;
+	font-size: 150%;
+}
+
+#myTable tr {
+	font-size: 75%;
+}
+
+#fbody {
+	position: absolute;
+	top: 25%;
+	height: 86%;
+	width: 100%;
+	display: block;
+	font-size: 150%;
+}
+
+.test + .tooltip > .tooltip-inner {
+    background-color: #F2F2F2; 
+    color: #FFFFFF; 
+    border: 1px solid;
+    font-size: 1em;
+    width: 50px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #D80000;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #D80000;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #D80000;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #D80000;
+}
+
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+}
+
